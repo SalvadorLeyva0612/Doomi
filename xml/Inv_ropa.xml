@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dominica>
+
+  <Opciones>
+    <Opcion Url="/Default.aspx?Id=0" Texto="Home" Id="0"></Opcion>
+    <Opcion Url="/Default.aspx?Id=1" Texto="Hombres" Id="1"></Opcion>
+    <Opcion Url="/Default.aspx?Id=2" Texto="Mujeres" Id="2"></Opcion>
+    <Opcion Url="/Default.aspx?Id=3" Texto="Contact" Id="3"></Opcion>
+    <Opcion Url="/Default.aspx?Id=3" Texto="PlayRoom" Id="4"></Opcion>
+  </Opciones>
+
+  <Categoria Nombre ="Hombres">
+    <Prendas Tipo="Camisas">
+      <Prenda Nombre ="Camisa de franela con gorro" Orden ="1">
+        <Descripcion>
+          <![CDATA[
+          Camisa de franela con gorro
+          ]]>
+        </Descripcion>
+        <Precio>$449.50</Precio>
+        <Color>Azul</Color>
+        <Imagen>assets/img/camisafranela.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Camisa de manga larga Slim-Fit" Orden ="2">
+        <Descripcion>
+          <![CDATA[La Everyday Shirt para hombre es la camisa abotonada que se pone a trabajar ocho días a la semana Cuello extendido. ]]>
+        </Descripcion>
+        <Precio>$449.50</Precio>
+        <Color>Negro</Color>
+        <Imagen>assets/img/camisanegra.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Camisa de manga larga con textura" Orden ="3">
+        <Descripcion>
+          <![CDATA[Solapa con muesca. Mangas largas. Puños abotonados. Frente con botones. Bolsillo en el pecho. Bolsillos al frente. Aberturas laterales.]]>
+        </Descripcion>
+        <Precio>$629.30</Precio>
+        <Color>Rojo</Color>
+        <Imagen>assets/images/camisarojo.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Camisa de manga corta estampada " Orden ="4">
+        <Descripcion>
+          <![CDATA[Cuello abierto tipo resort, con muescas en la solapa. Mangas cortas. Cinco botones al frente. Tejido de algodón suave.]]>
+        </Descripcion>
+        <Precio>
+          $349.50
+        </Precio>
+        <Color>Estampado</Color>
+        <Imagen>assets/images/camisaflores.jpg</Imagen>
+      </Prenda>
+
+    </Prendas>
+
+    <Prendas Tipo="Playeras">
+      <Prenda Nombre ="Playera Loose Tie-Dye" Orden ="1">
+        <Descripcion>
+          <![CDATA[Playeras de cuello redondo de punto acanalado. Mangas cortas]]>
+        </Descripcion>
+        <Precio>$319.20</Precio>
+        <Color>Gris</Color>
+        <Imagen>assets/images/playeragris.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Playera cuello redondo manga corta" Orden ="2">
+        <Descripcion>
+          <![CDATA[Playera cuello redondo manga corta.]]>
+        </Descripcion>
+        <Precio>$319.20</Precio>
+        <Color>Negro</Color>
+        <Imagen>assets/images/playeranegra.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Playera cuello redondo manga corta" Orden ="3">
+        <Descripcion>
+          <![CDATA[Playera cuello redondo manga corta.]]>
+        </Descripcion>
+        <Precio>$319.20</Precio>
+        <Color>Verde</Color>
+        <Imagen>assets/images/playeraverde.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Playera manga corta cuello redondo" Orden ="4">
+        <Descripcion>
+          <![CDATA[Playera manga corta cuello redondo Old Navy para hombre Old Navy |]]>
+        </Descripcion>
+        <Precio>$223.20</Precio>
+        <Color>Rojo</Color>
+        <Imagen>assets/images/playeraroja.jpg</Imagen>
+      </Prenda>
+
+    </Prendas>
+
+    <Prendas Tipo="Pantalones">
+      <Prenda Nombre ="Pantalones Cargo Loose Taper Non-Stretch '94 " Orden ="1">
+        <Descripcion>
+          <![CDATA[Nos echamos un clavado a los archivos para traerte un clásico certificado: el Cargo ´94. 
+          Con un ajuste holgado, tejido 100% de algodón,muchos bolsillos y cordones en la pierna muy old-school. ]]>
+        </Descripcion>
+        <Precio>
+          $719.40
+        </Precio>
+        <Color>
+          Azul
+        </Color>
+        <Imagen>assets/images/pantalonesazul.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Pantalón Straight Refined Tailored Cargo camuflaje " Orden ="2">
+        <Descripcion>
+          <![CDATA[Pantalón Straight Refined Tailored Cargo Old Navy para hombre Old Navy |]]>
+        </Descripcion>
+        <Precio>
+          $629.30
+        </Precio>
+        <Color>
+          Camoflaje
+        </Color>
+        <Imagen>assets/images/pantalonescamo.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Pantalón Straight Refined Tailored Cargo camuflaje" Orden ="3">
+        <Descripcion>
+          <![CDATA[Pantalón Straight Refined Tailored Cargo Old Navy para hombre Old Navy ]]>
+        </Descripcion>
+        <Precio>
+          $629.30
+        </Precio>
+        <Color>
+          Verde
+        </Color>
+        <Imagen>
+          assets/images/pantalonverde.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Pantalones Jogger Built-In Flex Modern" Orden ="4">
+        <Descripcion>
+          <![CDATA[Te presentamos el Jogger moderno, un pantalón fácil de poner que se ve bien y se siente cómodo. 
+          Ganar-ganar. Cintura elástica con cordón ajustable. Bragueta falsa. Bolsillos diagonales en la cadera; bolsillos ribeteados en la parte trasera.
+          Puños elásticos. Sarga de algodón con lavado suave. Diseñado con la innovadora tecnología Built-In Flex. 
+          Comodidad y movimiento en partes iguales. Estilo fácil de poner.
+          ]]>
+        </Descripcion>
+        <Precio>
+          $539.40
+        </Precio>
+        <Color>
+          Gris
+        </Color>
+        <Imagen>assets/images/pantalongris.jpg</Imagen>
+      </Prenda>
+
+    </Prendas>
+
+
+  </Categoria>
+
+  <Categoria Nombre ="Mujeres">
+
+    <Prendas Tipo="Blusas">
+      <Prenda Nombre ="Blusa oxford crop con botones" Orden ="1">
+        <Descripcion>
+          <![CDATA[
+          Blusa oxford crop con botones Manga larga Puño con botones Botones en la parte frontal
+          ]]>
+        </Descripcion>
+        <Precio>$559.30</Precio>
+        <Color>Azul</Color>
+        <Imagen>
+          assets/images/blusaazul.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Blusa con mangas de farol y fruncido" Orden ="2">
+        <Descripcion>
+          <![CDATA[Cuello cuadrado elastizado. Mangas cortas tipo farol con puños elásticos. Corpiño fruncido. Mezcla de rayón texturizado.]]>
+        </Descripcion>
+        <Precio>$449.50</Precio>
+        <Color>Beige</Color>
+        <Imagen>
+          assets/images/blusabeige.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Blusa de manga larga" Orden ="3">
+        <Descripcion>
+          <![CDATA[Solapa con muesca. Mangas largas. Puños abotonados. Frente con botones. Bolsillo en el pecho. Bolsillos al frente. Aberturas laterales.]]>
+        </Descripcion>
+        <Precio>$629.30</Precio>
+        <Color>Negro</Color>
+        <Imagen>
+          assets/images/blusanegra.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Blusa de manga larga " Orden ="4">
+        <Descripcion>
+          <![CDATA[Cuello abierto tipo resort, con muescas en la solapa. Mangas cortas. Cinco botones al frente. Tejido de algodón suave.]]>
+        </Descripcion>
+        <Precio>
+          $349.50
+        </Precio>
+        <Color>Verde</Color>
+        <Imagen>
+          assets/images/blusaverde.jpg
+        </Imagen>
+      </Prenda>
+
+    </Prendas>
+
+    <Prendas Tipo="Joggers">
+      <Prenda Nombre ="Jogger High-Waisted Dynamic" Orden ="1">
+        <Descripcion>
+          <![CDATA[Jogger High-Waisted Dynamic. Cintura con cordón elastico. Bolsillos laterales con cierre. Puños con elastico]]>
+        </Descripcion>
+        <Precio>$719.20</Precio>
+        <Color>Azul Marino</Color>
+        <Imagen>
+          assets/images/joggerazul.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Jogger cargo de cintura alta" Orden ="2">
+        <Descripcion>
+          <![CDATA[Jogger cargo de cintura alta. Con cierres en los tobillos para mujer Old Navy]]>
+        </Descripcion>
+        <Precio>$499.30</Precio>
+        <Color>Beige</Color>
+        <Imagen>
+          assets/images/joggerbeige.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Jogger High-Waisted Dynamic" Orden ="3">
+        <Descripcion>
+          <![CDATA[Jogger High-Waisted Dynamic. Cintura con cordón elastico. Bolsillos laterales con cierre. Puños con elastico]]>
+        </Descripcion>
+        <Precio>$319.20</Precio>
+        <Color>Negro</Color>
+        <Imagen>
+          assets/images/joggernegro.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Jogger vintage con logo" Orden ="4">
+        <Descripcion>
+          <![CDATA[Jogger vintage con logo Cintura elástica con jareta ajustable Bolsillos al costado Gráfico con logotipo en la cadera]]>
+        </Descripcion>
+        <Precio>$223.20</Precio>
+        <Color> Verde </Color>
+        <Imagen>
+          assets/images/joggersverde.jpg
+        </Imagen>
+      </Prenda>
+
+    </Prendas>
+
+    <Prendas Tipo="Shorts">
+      <Prenda Nombre ="Short Mid-Rise StretchTech " Orden ="1">
+        <Descripcion>
+          <![CDATA[Short Mid-Rise StretchTech para correr]]>
+        </Descripcion>
+        <Precio>
+          $719.40
+        </Precio>
+        <Color>
+          Negro
+        </Color>
+        <Imagen>
+          assets/images/shortnegro.jpg
+        </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Shorts Old Navy High-Waisted O.G. " Orden ="2">
+        <Descripcion>
+          <![CDATA[Piensa en "mom jeans"... si tu madre fuera una supermodelo. Parte nostalgia de los 90, parte comodidad de la nueva normalidad. ]]>
+        </Descripcion>
+        <Precio>
+          $629.30
+        </Precio>
+        <Color>
+          Mezclilla
+        </Color>
+        <Imagen> assets/images/shortmezclilla.jpg</Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Short estampado"   Orden ="3">
+        <Descripcion>
+          <![CDATA[Short estampado de 5in Old Navy para mujer ]]>
+        </Descripcion>
+        <Precio>
+          $629.30
+        </Precio>
+        <Color>
+          Estamapago Flores
+        </Color>
+        <Imagen>assets/images/shortflores.jpg </Imagen>
+      </Prenda>
+
+      <Prenda Nombre ="Shorts High-Waisted OGC" Orden ="4">
+        <Descripcion>
+          <![CDATA[Shorts de gabardina. Con cintura trasera con elastico. Boton frontal. Bolsas delanteras utilitarias y bolsillos traseros de parche ]]>
+        </Descripcion>
+        <Precio>
+          $539.40
+        </Precio>
+        <Color>
+          Verde
+        </Color>
+        <Imagen>
+          assets/images/shortverde.jpg
+        </Imagen>
+      </Prenda>
+
+    </Prendas>
+
+  </Categoria>
+
+</Dominica>
