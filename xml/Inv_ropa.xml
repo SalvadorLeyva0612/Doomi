@@ -29,7 +29,7 @@
         </Descripcion>
         <Precio>$449.50</Precio>
         <Color>Negro</Color>
-        <Imagen>assets/img/camisanegra.jpg</Imagen>
+        <Imagen>assets/images/camisanegra.jpg</Imagen>
       </Prenda>
 
       <Prenda Nombre ="Camisa de manga larga con textura" Orden ="3">

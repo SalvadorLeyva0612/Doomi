@@ -23,6 +23,7 @@
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
 		<link href="assets/css/tiny-slider.css" rel="stylesheet"/>
 		<link href="assets/css/style.css" rel="stylesheet"/>
+    
 		<title>Doomi</title>
 	</head>
 
@@ -63,9 +64,9 @@
                 </xsl:for-each>
 					</ul>
 
-					<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<!--<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
 						<li><a class="nav-link" href="cart.html"><img src="assets/images/cart.svg"/></a></li>
-					</ul>
+					</ul>-->
 				</div>
 			</div>
 				
@@ -234,7 +235,7 @@
 						</div>
 						<div class="col-lg-7">
 							<div class="hero-img-wrap">
-								<img src="assets/images/couch.png" class="img-fluid"/>
+								<img src="assets/images/modelos.png" class="img-fluid"/>
 							</div>
 						</div>
 					</div>
@@ -251,12 +252,13 @@
             <xsl:for-each select="Categoria/Prendas/Prenda[@Orden = 1]">
           
               	<!-- Start Column 1 -->
-					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+					<div class="col-3 col-md-3 col-lg-3 mb-5 mb-md-0">
 						<a class="product-item" href="cart.html">
 							<img src="{Imagen}" class="img-fluid product-thumbnail"/>
 							<h3 >
                 <xsl:value-of select="../@Tipo"/>
               </h3>
+              
 							<span class="icon-cross">
 								<img src="assets/images/cross.svg" class="img-fluid"/>
 							</span>
@@ -290,17 +292,81 @@
   
   <xsl:template name="Hombres">
 
-    <h3> Hola desde hombres</h3>
+
+
+    <div class="untree_co-section product-section before-footer-section">
+		    <div class="container">
+		      	<div class="row">
+             <xsl:for-each select="Categoria[@Clase = 1]/Prendas/Prenda">
+              
+             <!-- Start Column 1 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="#">
+							<img src="{Imagen}" class="img-fluid product-thumbnail"/>
+							<h3 class="product-title">
+                <xsl:value-of select="@Nombre"/>
+                
+              </h3>
+							<strong class="product-price">
+                <xsl:value-of select="Precio"/>
+              </strong>
+
+							<span class="icon-cross">
+								<img src="assets/images/cross.svg" class="img-fluid"/>
+							</span>
+						</a>
+					</div> 
+					<!-- End Column 1 -->	 
+             
+              </xsl:for-each>
+              
+            		
+						
+						</div>
+      </div>
+    </div>
+
+		      
   </xsl:template>
 
 <xsl:template name="Mujeres">
 
-    <h3> Hola desde mujeres</h3>
+     <div class="untree_co-section product-section before-footer-section">
+		    <div class="container">
+		      	<div class="row">
+             <xsl:for-each select="Categoria[@Clase = 2]/Prendas/Prenda">
+              
+             <!-- Start Column 1 -->
+					<div class="col-12 col-md-4 col-lg-3 mb-5">
+						<a class="product-item" href="#">
+							<img src="{Imagen}" class="img-fluid product-thumbnail"/>
+							<h3 class="product-title">
+                <xsl:value-of select="@Nombre"/>
+                
+              </h3>
+							<strong class="product-price">
+                <xsl:value-of select="Precio"/>
+              </strong>
+
+							<span class="icon-cross">
+								<img src="assets/images/cross.svg" class="img-fluid"/>
+							</span>
+						</a>
+					</div> 
+					<!-- End Column 1 -->	 
+             
+              </xsl:for-each>
+              			
+						</div>
+      </div>
+    </div>
   </xsl:template>
 
 <xsl:template name="Contact">
+    <h1>Hola desde Contacto</h1>
 
-    <h3> Hola desde contact</h3>
+
+   
   </xsl:template>
   
   <xsl:template name="PlayRoom">
