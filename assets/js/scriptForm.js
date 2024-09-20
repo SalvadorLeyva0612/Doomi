@@ -1,3 +1,4 @@
+
 var Name, LstName, Email,Msg; 
 
 function getForm(){
@@ -47,6 +48,10 @@ function mostrarComentarios(){
             localStorage.getItem('mensaje')
             console.log(localStorage.getItem('nombre','apellido','correo','mensaje'))
             
+
+
+
+
 
             
     }

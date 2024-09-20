@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    flex-direction: column;
+}
+
+#gameboard{
+    display: flex;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+}
+.beige{
+    background-color: #F5F5DC;
+}
+
+.brown{
+    background-color:brown;
+}

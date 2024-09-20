@@ -25,6 +25,8 @@
 		<link href="assets/css/style.css" rel="stylesheet"/>
     <!--Sweet Alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script src="assets/js/agregarCarrito.js"></script>
      
    
     
@@ -244,21 +246,21 @@
           </div>
 
             <xsl:for-each select="Categoria/Prendas/Prenda">
-          <div class="col-12 col-md-4 col-lg-3 mb-5">
-              <a class="product-item" href="#">
-                <img src="{Imagen}" class="img-fluid product-thumbnail"/>
-                <h3 class="product-title">
-                  <xsl:value-of select="@Nombre"/>
-                </h3>
-                <strong class="product-price">
-                  <xsl:value-of select="Precio"/>
-                </strong>
+            <div class="col-12 col-md-4 col-lg-3 mb-5">
+                <a class="product-item" onclick ="agregarCarrito('@{Orden}','{@Nombre}','{Precio}') ">
+                  <img src="{Imagen}" class="img-fluid product-thumbnail"/>
+                  <h3 class="product-title" >
+                    <xsl:value-of select="@Nombre"/>
+                  </h3>
+                  <strong class="product-price" id="product-price">
+                    <xsl:value-of select="Precio"/>
+                  </strong>
 
-                <span class="icon-cross">
-                  <img src="assets/images/cross.svg" class="img-fluid"/>
-                </span>
-              </a>
-          </div>
+                  <span class="icon-cross">
+                    <img src="assets/images/cross.svg" class="img-fluid"/>
+                  </span>
+                </a>
+            </div>
             </xsl:for-each>            
 
 
@@ -546,31 +548,26 @@
 
 
     </div>
-  <!--End of contact form-->
-  
-  <!--Comments section-->
-
-  <div class ="comments-section">
-    
-    
-  </div>
-  
-  
-  
-  
-  <!--end of comments section-->
-
-  
-  
-  
-    <!-- ================ contact section end ================= -->
-    
-
-
-   
+  <!--End of contact form-->    
   </xsl:template>
   
   <xsl:template name="Blog">
+    
+        <script src="assets/js/chess.js"></script>
+         <link rel="stylesheet" href="assets/css/chess.css"/>
+    <!--Chess section-->
+    
+    
+     <div id="gameboard">
+            <div class="square beige">
+                <img src="assets/images/king.png" id="king" class="chess-piece" draggable="true"/>
+            </div>
+            <div class="square brown"></div>
+            <div class="square beige"></div>
+        </div>
+        <p id="info"></p>
+    
+    <!--endchess section-->
     
    <!-- Start Blog Section -->
 		<div class="blog-section">
@@ -586,7 +583,7 @@
 
 				<div class="row">
 
-					<div class="col-12 col-sm-4 col-md-4 mb-4 mb-md-0">
+					<div class="col-6 col-sm-6 col-md-6 mb-4 mb-md-0">
 						<div class="post-entry" style="width:100%">
 							<a href="#" class="post-thumbnail">
                 <video controls="true" style="width:100%">
@@ -602,12 +599,12 @@
 						</div>
 					</div>
 
-					<div class="col-12 col-sm-4 col-md-4 mb-4 mb-md-0">
+					<div class="col-6 col-sm-6 col-md-6 mb-4 mb-md-0">
 						<div class="post-entry" style="width:100%">
              <iframe style="border-radius:12px"
               src="{spotify}"
-              width="100%" 
-              height="152"
+              width="500px" 
+              height="400px"
               frameBorder="0" 
               allowfullscreen="" 
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
@@ -621,26 +618,15 @@
 						</div>
 					</div>
 
-				<div class="col-12 col-sm-4 col-md-4 mb-4 mb-md-0">
-						<div class="post-entry" style="width:100%">
-							<a href="#" class="post-thumbnail">
-                <video controls="true" style="width:100%">
-                  <source src ="assets/video/video.mp4"></source>
-                </video>
-                </a>
-							<div class="post-content-entry">
-								<h3><a href="#">First Time Home Owner Ideas</a></h3>
-								<div class="meta">
-									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
+			
 
 				</div>
 			</div>
 		</div>
 		<!-- End Blog Section -->	 
+    
+   
+
 
    
   
