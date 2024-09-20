@@ -21,3 +21,8 @@ body{
 .brown{
     background-color:brown;
 }
+
+#king {
+    width: 200px;
+    height: 200px;
+}
