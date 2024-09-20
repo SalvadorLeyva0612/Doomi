@@ -6,11 +6,11 @@
     <Opcion Url="/Default.aspx?Id=1" Texto="Hombres" Id="1"></Opcion>
     <Opcion Url="/Default.aspx?Id=2" Texto="Mujeres" Id="2"></Opcion>
     <Opcion Url="/Default.aspx?Id=3" Texto="Contact" Id="3"></Opcion>
-    <Opcion Url="/Default.aspx?Id=4" Texto="PlayRoom" Id="4"></Opcion>
+    <Opcion Url="/Default.aspx?Id=4" Texto="Blog" Id="4"></Opcion>
   </Opciones>
 
   <Categoria Nombre ="Hombres" Clase ="1">
-    
+
     <Prendas Tipo="Camisas">
       <Prenda Nombre ="Camisa de franela con gorro" Orden ="1">
         <Descripcion>
@@ -316,4 +316,15 @@
       </Prenda>
     </Prendas>
   </Categoria>
+
+  <Datos>
+    <NombreLocal>Dominica</NombreLocal>
+    <Direccion>Av 2 Pte 4317-Local D, 72140 Puebla, Puebla 9</Direccion>
+    <Telefono>2211205394</Telefono>
+    <correo>contacto@dominica.com</correo>
+  </Datos>
+
+  <spotify>
+    <![CDATA[https://open.spotify.com/embed/playlist/0Wqrwn9Ui7kYkWJyVE8ZWk?utm_source=generator&theme=0]]>
+  </spotify>
 </Dominica>
